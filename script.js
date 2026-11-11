@@ -31,3 +31,7 @@
     note.textContent='Your email app should open with the message ready to send.';
   });
 })();
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'){var n=document.getElementById('menu'),b=document.querySelector('.burger');n.classList.remove('open');b.setAttribute('aria-expanded',false)}
+});
+addEventListener('resize',function(){if(innerWidth>820){document.getElementById('menu').classList.remove('open')}});
