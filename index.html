@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nafis Kabir Tanim | Software Engineering Student</title>
+<meta name="description" content="Portfolio of Nafis Kabir Tanim, a software engineering student focused on programming, SQL and data analysis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="top">
+  <a class="brand" href="#top">Nafis Kabir Tanim</a>
+  <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="pill">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="kicker">BSc Software Engineering, Daffodil International University</p>
+    <h1>Nafis Kabir<br>Tanim</h1>
+    <p class="role">I am a <span id="role">programmer</span><i class="caret"></i></p>
+    <p class="lead">I solve problems with code and data. Currently looking for remote opportunities where I can build, analyse and keep learning.</p>
+    <div class="cta">
+      <a class="btn solid" href="#contact">Get in touch</a>
+      <a class="btn ghost" href="Nafis_Kabir_Tanim-CV.pdf" download>Download CV</a>
+    </div>
+  </div>
+  <div class="hero-photo"><img src="assets/profile.jpg" alt="Portrait of Nafis Kabir Tanim in a navy blazer" width="800" height="905"></div>
+</section>
+
+<main>
+<section id="about" class="wrap split">
+  <h2>About</h2>
+  <div>
+    <p class="big">I am a software engineering student with a 3.69 CGPA who enjoys turning messy problems into clear, working solutions.</p>
+    <p>My interests sit between software development and data science: writing clean programs, querying data with SQL, and finding insights that help people decide. I work in C, Java, JavaScript and SQL, and I like to pair technical depth with clear communication and good time management.</p>
+    <dl class="facts">
+      <div><dt>3.69 / 4.00</dt><dd>Current CGPA</dd></div>
+      <div><dt>3</dt><dd>Languages spoken</dd></div>
+      <div><dt>Remote</dt><dd>Preferred work setup</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="education" class="wrap split tint">
+  <h2>Education</h2>
+  <ol class="timeline">
+    <li><span class="when">Present</span><h3>BSc in Software Engineering</h3><p>Daffodil International University. Current CGPA 3.69 / 4.00.</p></li>
+    <li><span class="when">Higher Secondary</span><h3>HSC, Science</h3><p>Kajem Ali School and College. CGPA 4.00 / 5.00.</p></li>
+    <li><span class="when">Secondary</span><h3>SSC, Science</h3><p>Cox's Bazar Government High School. CGPA 4.83 / 5.00.</p></li>
+  </ol>
+</section>
+
+<section id="skills" class="wrap split">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Programming and data</h3><ul><li>C</li><li>Java</li><li>JavaScript</li><li>SQL</li><li>HTML</li><li>CSS</li></ul></div>
+    <div><h3>Productivity and design</h3><ul><li>Microsoft Excel</li><li>Microsoft Word</li><li>PowerPoint</li><li>Canva</li><li>CapCut</li></ul></div>
+    <div><h3>Working style</h3><ul><li>Quick learner</li><li>Time management</li><li>Leadership</li><li>Communication</li></ul></div>
+    <div><h3>Languages</h3><ul><li>Bengali: native</li><li>English: fluent</li><li>Chittagonian: conversational</li></ul></div>
+  </div>
+</section>
+
+<section id="projects" class="wrap split tint">
+  <h2>Projects</h2>
+  <div>
+    <div class="empty"><h3>Projects are on the way</h3><p>I am building my first public projects in C, Java and JavaScript. Check back soon, or get in touch to see work in progress.</p></div>
+    <h3 class="sub">Activities</h3>
+    <article class="event"><h3>Explorer (special invite)</h3><p>Inauguration Ceremony of the Digital Device and Innovation Expo 2026.</p></article>
+  </div>
+</section>
+
+<section id="contact" class="wrap split">
+  <h2>Contact</h2>
+  <div>
+    <p class="big">Have an opportunity or a question? Send a message and I will reply by email.</p>
+    <ul class="links">
+      <li><a href="mailto:tnafis57@gmail.com">tnafis57@gmail.com</a> <button class="copy" type="button">Copy email</button></li>
+      <li><a href="tel:+8801621912458">+880 1621 912458</a></li>
+      <li>Ashulia, Savar, Dhaka, Bangladesh</li>
+    </ul>
+    <form id="form">
+      <label>Your name<input name="name" required autocomplete="name"></label>
+      <label>Your email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="msg" rows="5" required></textarea></label>
+      <button class="btn solid" type="submit">Send message</button>
+      <p class="note" id="note" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+<footer><p>&copy; <span id="yr"></span> Nafis Kabir Tanim</p><a href="#top">Back to top</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
